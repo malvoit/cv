@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    direction: rtl;
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f3f0f0;
+}
+
+.right, .left {
+    padding: 20px;
+}
+
+.right {
+    flex: 1;
+    background-color: #4300fd;
+    color: #fff;
+}
+
+.left {
+    flex: 2;
+}
+
+.profile img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #9fff06;
+}
+
+.contact ul, .languages ul, .interests ul, .courses ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact h2, .languages h2, .interests h2, .courses h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #ffeb3b;
+}
+
+.contact ul li, .languages ul li, .interests ul li, .courses ul li {
+    margin-bottom: 10px;
+}
+
+.about, .experience, .education, .skills {
+    margin-bottom: 20px;
+}
+
+.about h2, .experience h2, .education h2, .skills h2 {
+    font-size: 1.5em;
+    color: #283593;
+    border-bottom: 2px solid #7b07ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background-color: #283593;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 30%;
+    text-align: center;
+    cursor: pointer; /* Added cursor pointer for better UX */
+}
+
+.skills-list li:hover {
+    background-color: #3f51b5; /* Added hover effect */
+}
